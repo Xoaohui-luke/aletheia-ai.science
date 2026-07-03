@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "8b5c4361"
+  },
+  "insights/01-paradigm/first_article.qmd": {
+    "first_article.html": "04644283"
+  },
+  "activities/Activity_01_Knowledge Graph/activity_01.qmd": {
+    "activity_01.html": "6e324229"
+  },
+  "activities/Activity_01_Knowledge_Graph/activity_01.qmd": {
+    "activity_01.html": "2998e8f8"
+  },
+  "activities/Activity_02_Reference_Mapping/activity_02.qmd": {
+    "activity_02.html": "e95cc113"
+  },
+  "activities/Activity_03_Field_Validation1/activity_03.qmd": {
+    "activity_03.html": "9b057dfe"
+  },
+  "roadmap/index.qmd": {
+    "index.html": "8eb2f754"
+  },
+  "about.qmd": {
+    "about.html": "53d950e6"
+  }
+}

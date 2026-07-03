@@ -1,0 +1,74 @@
+---
+title: "About"
+---
+
+## Chief Architect & Chief Scientist: 刘晓辉 (Xiaohui Liu), Ph.D.
+
+::: {.panel-tabset}
+
+
+
+### English
+As the Chief Architect of Aletheia AI Science and a Chief Scientist in materials R&D field, I am dedicated to redefining the paradigm of scientific discovery through **Logic-Driven Proprietary Models**.
+
+#### Core Definition: Exploring the Mechanics of Scientific Reasoning
+**Aletheia is not an AI-for-Science project. It is a research program on the mechanics of scientific reasoning, with AI serving as both the modeling tool and the experimental platform.** 
+
+Over two decades of research and industrial practice, I have developed a highly transferable scientific reasoning system. My core mission is to enable **AI to learn how scientists discover and represent natural laws.**
+
+#### R&D Paradigm: Logic-Driven
+My research philosophy is built upon the following axioms:
+
+> **Natural laws are not invented; they are discovered.**
+> Scientific intelligence lies not in creating arbitrary explanations, but in identifying the lawful constraints that govern state transitions.
+
+Based on this, my research focuses on:
+*   **Logic Collapse**: Utilizing the Aletheia industrial R&D protocol to collapse complex material evolution intuition into high-dimensional vector space models, enabling a shift from empirical trial-and-error to axiom-based reasoning.
+*   **Physical Sovereignty**: Empowering machine intelligence with a deep understanding of material mechanisms, ensuring AI decision-making evolves within the constraints of physical laws.
+*   **Cross-Domain Mechanism Mapping**: Leveraging proprietary protocols to achieve seamless migration of logical operators across semiconductors, flexible displays, and sustainable materials.
+
+#### Professional Milestones
+*   **Extensive Research Background**: Participated in significant national-level projects; led and coordinated collaborations among 20 research institutes and industrial partners from 14 EU countries for the industrialization of nanomaterials during my tenure in Sweden and the UK.
+*   **Full-Chain Practical Governance**: Possess rare, end-to-end operational experience, from fundamental laboratory theoretical derivation to the establishment of 10,000-ton scale production lines.
+*   **Billion-Scale Industrial Validation**: Led the domestic substitution of multiple core materials, breaking long-standing technical monopolies by Japan and the West, and creating significant commercial value and industrial influence.
+
+### 中文
+作为 Aletheia AI Science 的主架构师与首席科学家，我致力于通过**逻辑驱动的专有模型 (Logic-Driven Proprietary Model)**，重新定义科学发现的范式。
+
+#### 核心定义：科学认知机制的探索
+**Aletheia 不是一个简单的 AI-for-Science 项目，而是一项关于“科学推理机制”的研究计划。** 在此，AI 仅仅是我的建模工具与实验平台。
+
+经过二十多年的科研与工业研发实践，我已构建起一套高度可迁移的科学推理系统。我的核心目标在于：**让 AI 学习科学家如何发现并表示自然规律。**
+
+#### 研发范式：逻辑驱动 (Logic-Driven R&D)
+我的科研哲学构建于以下公理之上：
+
+> **自然规律不是被创造的，而是被发现的。**
+> 科学智能，不在于构造任意解释，而在于识别支配系统状态演化的客观约束。
+
+基于此，我的研究范式侧重于：
+*   **逻辑坍缩 (Logic Collapse)**：通过 Aletheia 工业研发协议，将复杂的材料演化直觉坍缩为高维矢量空间模型，实现从经验试错向公理化推理的底层转型。
+*   **物理主权 (Physical Sovereignty)**：赋予机器智能对材料机理的深度理解，确保 AI 决策在物理定律的约束下演进。
+*   **跨领域机理映射**：利用独创协议，实现逻辑算子在半导体、柔性显示及可持续材料间的无损迁移。
+
+#### 职业里程碑
+*   **深厚科研积淀**：参与重要国家级项目；在瑞典及英国期间，主导并协调来自 14 个欧盟国家的 20 个科研院所及工业界合作伙伴，进行纳米材料的工业化研究。
+*   **全链条实战治理**：具备从实验室理论突破到万吨级生产线建立的全闭环实战经验。
+*   **10亿级产业验证**：主导多项核心材料的国产化替代，打破欧美及日本长期的技术垄断，创造了显著的商业价值与行业影响力。
+
+:::
+
+### Connect with Me | 联系与同行
+
+::: {style="font-size: 0.9rem; margin-top: 15px;"}
+[**ORCID**](https://orcid.org/0009-0006-1323-3526) | 
+[**LinkedIn**](https://www.linkedin.com/in/xiaohui-liu-2a5a12408) | 
+[**GitHub**](https://github.com/Xoaohui-luke) | 
+[**Hugging Face**](https://huggingface.co/Luke-xiaohui) | 
+[**Twitter / X**](https://x.com/Xiaohuiluke) | 
+[**Email**](mailto:liuxh@outlook.com)
+:::
+
+---
+
+> *"Engineering is the bridge between chaotic physical phenomena and predictable industrial output. We don't just fix defects; we govern the process."*

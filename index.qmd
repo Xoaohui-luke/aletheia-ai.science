@@ -1,0 +1,18 @@
+﻿---
+title: ""
+page-layout: custom
+---
+
+::: {style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 90vh; text-align: center; padding: 20px;"}
+
+<!-- 缩小 Logo，设置最大宽度为 500px -->
+<div style="max-width: 500px; margin-bottom: 30px;">
+  <img src="final logo.png" alt="Aletheia AI Science Logo" style="width: 100%; height: auto;">
+</div>
+
+<!-- 缩小标语，设置最大宽度为 500px -->
+<div style="max-width: 500px;">
+  <img src="image_5ea8ba.png" alt="How Scientific Thinking Evolves in the AI Era" style="width: 100%; height: auto;">
+</div>
+
+:::

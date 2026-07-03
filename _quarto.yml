@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "insights/01-paradigm/images/*"
+    - "styles.css"
+
+website:
+  title: "Aletheia AI Science"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: about.qmd
+        text: "About"
+      - href: roadmap/index.qmd
+        text: "Roadmap"
+      - href: insights/01-paradigm/first_article.qmd
+        text: "Insights"
+      - text: "Activities"
+        menu:
+          - href: activities/Activity_01_Knowledge_Graph/activity_01.qmd
+            text: "Activity 01: Knowledge Graph"
+          - href: activities/Activity_02_Reference_Mapping/activity_02.qmd
+            text: "Activity 02: Reference Mapping"
+          - href: activities/Activity_03_Field_Validation1/activity_03.qmd
+            text: "Activity 03: Field Validation"
+      - href: validation/index.qmd
+        text: "Validation"
+
+sidebar:
+  - id: main-sidebar
+    contents:
+      - href: index.qmd
+        text: "Home"
+      - href: about.qmd
+        text: "About"
+      - href: roadmap/index.qmd
+        text: "Roadmap"
+      - section: "Insights"
+        contents:
+          - insights/01-paradigm/first_article.qmd
+      - section: "Activities"
+        contents:
+          - activities/Activity_01_Knowledge_Graph/activity_01.qmd
+          - activities/Activity_02_Reference_Mapping/activity_02.qmd
+          - activities/Activity_03_Field_Validation1/activity_03.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
