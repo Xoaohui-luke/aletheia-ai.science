@@ -1,0 +1,19 @@
+---
+title: "PET Circularity"
+---
+
+<div style="text-align: center;">
+<img src="petworkflow.png" style="width: 100%;" />
+</div>
+
+<br>
+
+<div style="text-align: center;">
+<a href="../index.qmd">Home</a> | 
+<a href="../about.qmd">About</a> | 
+<a href="../roadmap/index.qmd">Roadmap</a> | 
+<a href="../insights/01-paradigm/first_article.qmd">Insights</a> | 
+<a href="../activities/Activity_01_Knowledge_Graph/activity_01.qmd">Activities</a>
+</div>
+
+---

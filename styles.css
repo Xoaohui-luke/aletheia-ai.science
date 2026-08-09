@@ -1,0 +1,23 @@
+/* styles.css */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.pet-hero-container {
+  margin-bottom: 40px;
+}
+
+/* 确保 SVG 容器居中且响应式 */
+#pet-workflow-graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e1e1e1;
+}
+#pet-workflow-graph svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}

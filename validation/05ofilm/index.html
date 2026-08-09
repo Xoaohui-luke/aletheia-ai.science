@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Activity 01: COSMOS Knowledge Graph – Aletheia AI Science</title>
+<title>High-performance optical film – Aletheia AI Science</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -150,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Activity 01: COSMOS Knowledge Graph</h1>
+<h1 class="title">High-performance optical film</h1>
 </div>
 
 
@@ -167,43 +196,280 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">English</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">中文</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><strong>COSMOS Knowledge Graph: An Axiomatic Foundation for Material Engineering.</strong></p>
-<p>COSMOS transcends its origins in release film engineering, evolving into a unified framework for the broader coating and precision manufacturing industry. By formalizing 800+ interconnected nodes—ranging from fundamental surface energy axioms (L01) and material response matrices (L02) to advanced process audit protocols (L22)—we have constructed a domain-agnostic physical knowledge graph.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Part 1: Product Structure
+</div>
+</div>
+<section id="high-performance-optical-film-architecture-and-design" class="level2 callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="high-performance-optical-film-architecture-and-design">1. High-Performance Optical Film Architecture and Design</h2>
+<section id="multi-layer-composite-structure" class="level3">
+<h3 class="anchored" data-anchor-id="multi-layer-composite-structure">1.1 Multi-Layer Composite Structure</h3>
+<ul>
+<li><strong>Representative Layered Architecture</strong>:
+<ul>
+<li>As illustrated in the schematic structure, the optical protective film is engineered with a sophisticated multi-layer configuration (which can be further tailored or expanded based on specific functional demands):
+<ol type="1">
+<li><strong>Protection Film (Layer 1)</strong>: Shields the top functional surface prior to application.</li>
+<li><strong>Hard-Coated PET Film (Layer 2)</strong>: The core functional substrate coated with Hard Coating providing <strong>Anti-Reflective (AR)</strong> and/or <strong>Anti-Glare (AG)</strong> functionalities.</li>
+<li><strong>Green TPU Layer (Layer 3)</strong>: Our synthesized eco-friendly, high-performance TPU acting as the core high-impact-resistant layer.</li>
+<li><strong>Silicone PSA (Layer 4)</strong>: Silicone Pressure-Sensitive Adhesive designed for reliable bonding and bubble-free attachment to electronic screen glass.</li>
+<li><strong>Release Liner (Layer 5)</strong>: Protects the adhesive layer before installation.</li>
+</ol></li>
+</ul></li>
+</ul>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+<dl>
+<dt><img src="images/structure.png" class="img-fluid" style="width:85.0%" alt="Multi-Layer Structure of High-Performance Optical Protective Film"></dt>
+<dd>
+Figure 1: Typical 5-layer composite structure of the optical protective film integrating Green TPU.
+</dd>
+</dl>
+</div>
+</section>
+<section id="core-performance-requirements-for-screen-protection" class="level3">
+<h3 class="anchored" data-anchor-id="core-performance-requirements-for-screen-protection">1.2 Core Performance Requirements for Screen Protection</h3>
+<ul>
+<li><strong>Target Application</strong>:
+<ul>
+<li>Designed specifically for advanced electronic device screen protection, demanding rigorous optical-grade quality and mechanical durability.</li>
+</ul></li>
+<li><strong>Three Pillar Requirements</strong>:
+<ol type="1">
+<li><strong>Impact Resistance</strong>: Leveraging the unique energy-dissipating Green TPU layer to protect screens from drops and localized shocks.</li>
+<li><strong>Anti-Nail Scratch Performance</strong>: Resisting everyday marring, indentation, and fingernail scratching during active use.</li>
+<li><strong>High Transparency</strong>: Maintaining exceptional visual clarity, high transmittance, and anti-reflective/anti-glare synergy without optical distortion.</li>
+</ol></li>
+</ul>
+</section>
+</section>
+</div>
+<hr>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Part 2: Impact Resistance
+</div>
+</div>
+<section id="drop-weight-impact-performance-and-energy-absorption" class="level2 callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="drop-weight-impact-performance-and-energy-absorption">2. Drop-Weight Impact Performance and Energy Absorption</h2>
+<section id="drop-ball-impact-testing-video-demonstration" class="level3">
+<h3 class="anchored" data-anchor-id="drop-ball-impact-testing-video-demonstration">2.1 Drop-Ball Impact Testing &amp; Video Demonstration</h3>
+<ul>
+<li><strong>Experimental Setup</strong>:
+<ul>
+<li>Drop-weight impact resilience was tested using a standard steel ball (<span class="math inline">\(m = 11\,\text{g}\)</span>, diameter <span class="math inline">\(d = 14\,\text{mm}\)</span>).</li>
+<li>Two comparative dynamic videos demonstrate the exceptional shock absorption of our protective film system:
+<ol type="1">
+<li><strong>Direct Glass Impact</strong>: Bare glass plate subjected to impact.</li>
+<li><strong>Composite Film Impact</strong>: The engineered film structure (<span class="math inline">\(50\,\mu\text{m}\)</span> PET / <span class="math inline">\(100\,\mu\text{m}\)</span> Green TPU) applied on substrate.</li>
+</ol></li>
+</ul></li>
+<li><strong>Comparative Resilience Data</strong>:
+<ul>
+<li><strong>Bare Glass Plate</strong>: Released from a height of <span class="math inline">\(220\,\text{mm}\)</span> (impact energy of <span class="math inline">\(23.7\,\text{mJ}\)</span>), yielding a high rebound height of <span class="math inline">\(83\,\text{mm}\)</span>.</li>
+<li><strong>PET/TPU Composite Film</strong>: Tested under a much harsher condition with a release height of <span class="math inline">\(550\,\text{mm}\)</span> (impact energy of <span class="math inline">\(55\,\text{mJ}\)</span>), yet the rebound height drops drastically to just <span class="math inline">\(5\,\text{mm}\)</span>—indicating that <strong>the vast majority of kinetic energy is efficiently dissipated and absorbed</strong> by the protective composite.</li>
+</ul></li>
+</ul>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<video width="80%" controls=""> <source src="images/media1.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+<p style="font-size: 0.9em; color: #666; margin-top: 5px;">
+Video 1: Steel Ball Impact on Bare Glass
+</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<video width="80%" controls=""> <source src="images/media2.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+<p style="font-size: 0.9em; color: #666; margin-top: 5px;">
+Video 2: Steel Ball Impact on PET/Green TPU Composite
+</p>
+</div>
+</div>
+</div>
+<p>Figure 2: Drop-ball impact performance comparing bare glass with the Green TPU optical composite.</p>
+</div>
+</section>
+<section id="ultra-thin-design-and-structural-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="ultra-thin-design-and-structural-optimization">2.2 Ultra-Thin Design and Structural Optimization</h3>
+<ul>
+<li><strong>Strict Thickness Constraint</strong>:
+<ul>
+<li>For practical electronic screen protection applications, the total thickness of the functional film (including the PET, Green TPU, and PSA layers) must be strictly controlled <strong>within <span class="math inline">\(150\,\mu\text{m}\)</span></strong>.</li>
+</ul></li>
+<li><strong>Multilayer Synergy</strong>:
+<ul>
+<li>Meeting high-end anti-impact standards within such a constrained ultra-thin profile is extremely challenging. By systematically tuning the viscoelastic and mechanical properties of the Green TPU alongside optimized interfacial layer design, the film successfully achieves superior shock resistance and energy damping without sacrificing thickness limits.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+</div>
+<hr>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Part 3: Anti-Nail Scratch Performance
+</div>
+</div>
+<section id="anti-nail-scratch-resistance-and-self-healing-behavior" class="level2 callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="anti-nail-scratch-resistance-and-self-healing-behavior">3. Anti-Nail Scratch Resistance and Self-Healing Behavior</h2>
+<section id="testing-criteria-benchmark-comparison" class="level3">
+<h3 class="anchored" data-anchor-id="testing-criteria-benchmark-comparison">3.1 Testing Criteria &amp; Benchmark Comparison</h3>
+<ul>
+<li><strong>Testing Methodology</strong>:
+<ul>
+<li>Evaluated using a Keyence VK3000 3D laser scanning microscope to measure surface 3D topography and indentation profiles after a standardized fixed force is applied and dragged across the surface.</li>
+</ul></li>
+<li><strong>Industry Standard for Qualification</strong>:
+<ul>
+<li>The qualification threshold requires that the residual scratch dimensions (Width <span class="math inline">\(\times\)</span> Depth) must not exceed that of a conventional qualified reference standard (<span class="math inline">\(250 \times 0.2\,\mu\text{m}\)</span>), or that deep initial indentations must rapidly recover to within acceptable specifications. <em>(Note: Conventional qualified reference samples typically pass the nail scratch test but fail rigorous anti-impact requirements).</em></li>
+</ul></li>
+</ul>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+<dl>
+<dt><img src="images/quali.png" class="img-fluid" style="width:85.0%" alt="Keyence 3D Morphology of Standard Qualified Sample"></dt>
+<dd>
+Figure 3: 3D profile and cross-sectional depth of a conventional qualified sample (<span class="math inline">\(W \times H: 250 \times 0.2\,\mu\text{m}\)</span>).
+</dd>
+</dl>
+</div>
+</section>
+<section id="performance-of-green-tpu-optical-film-9-day-recovery" class="level3">
+<h3 class="anchored" data-anchor-id="performance-of-green-tpu-optical-film-9-day-recovery">3.2 Performance of Green TPU Optical Film &amp; 9-Day Recovery</h3>
+<ul>
+<li><strong>Immediate Test Results</strong>:
+<ul>
+<li>As demonstrated by the Keyence 3D profile in Figure 4, our Green TPU composite film fully satisfies the strict criteria right after testing, matching the standard threshold (<span class="math inline">\(250 \times 0.2\,\mu\text{m}\)</span>) while simultaneously retaining superior impact resistance.</li>
+</ul></li>
+</ul>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="overall.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
+<p><img src="images/tpu.png" class="img-fluid figure-img" style="width:85.0%"></p>
+<figcaption>Green TPU Initial Scratch Profile</figcaption>
 </figure>
 </div>
-<p>This architecture anchors manufacturing decisions to deterministic physical invariants, allowing for seamless migration across disciplines—from high-performance tapes to semiconductor lithography. By decoupling scientific discovery from stochastic trial-and-error, COSMOS provides a universal, axiom-driven engine for deterministic material design.</p>
+<p>Figure 4: Keyence 3D morphology and depth profile of the Green TPU film showing initial compliance.</p>
+</div>
+<ul>
+<li><strong>Remarkable Self-Healing Phenomenon (Day 9)</strong>:</li>
+<li>Even more remarkably, due to the exceptional viscoelasticity and delayed elastic recovery endowed by our tailor-made network architecture, the 3D profile measured on the <strong>9th day</strong> reveals that <strong>the scratch marks completely vanished</strong>, with the depth successfully reducing to <strong><span class="math inline">\(0\,\mu\text{m}\)</span> (<span class="math inline">\(250 \times 0\,\mu\text{m}\)</span>)</strong>.</li>
+<li>This highlights an outstanding long-term surface resilience and self-healing synergy ideal for daily electronic device usage.</li>
+</ul>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="detail.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
+<p><img src="images/day9.png" class="img-fluid figure-img" style="width:85.0%"></p>
+<figcaption>Green TPU Recovery Profile on Day 9</figcaption>
 </figure>
 </div>
+<p>Figure 5: Keyence 3D morphology and depth profile of the Green TPU film showing complete scratch disappearance after 9 days.</p>
 </div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>COSMOS 知识图谱：材料工程的公理化底座</strong></p>
-<p>COSMOS 已超越了单一的离型膜工程范畴，演变为涵盖胶带、胶水、功能薄膜等全涂布领域的统一架构。通过将 800 余个关联节点进行公理化建模——从 L01 的表面能基准，到 L02 的材料响应矩阵，再至 L22 的全闭环逻辑审计协议——我们构建了一个严谨的、领域无关的物理知识图谱。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="overall.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
-</figure>
+</section>
+</section>
 </div>
-<p>这一架构将制造决策锚定在确定性的物理常数与边界条件之上，具备极强的跨学科迁移能力：从精密胶粘剂到半导体光刻胶，乃至生物医疗涂层，COSMOS 正在将“随机试错”转化为“由公理驱动的确定性解析”。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="detail.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
-</figure>
+<hr>
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Part 4: Optical Characteristics
 </div>
 </div>
+<section id="optical-performance-and-transmittance-analysis" class="level2 callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="optical-performance-and-transmittance-analysis">4. Optical Performance and Transmittance Analysis</h2>
+<section id="visible-light-transmittance-spectra-400---700textnm" class="level3">
+<h3 class="anchored" data-anchor-id="visible-light-transmittance-spectra-400---700textnm">4.1 Visible Light Transmittance Spectra (<span class="math inline">\(400 - 700\,\text{nm}\)</span>)</h3>
+<ul>
+<li><strong>Comparative Evaluation</strong>:
+<ul>
+<li>The light transmittance across the visible spectrum (<span class="math inline">\(400 - 700\,\text{nm}\)</span>) was thoroughly evaluated for various single-layer and composite film configurations using spectrophotometry.</li>
+</ul></li>
+<li><strong>Tested Configurations in Spectrum</strong>:
+<ol type="1">
+<li><strong>Black Curve</strong>: Single-layer HC PET (<span class="math inline">\(50\,\mu\text{m}\)</span>).</li>
+<li><strong>Green Curve</strong>: Pure Green TPU (<span class="math inline">\(30\,\mu\text{m}\)</span>, H40).</li>
+<li><strong>Red &amp; Blue Curves</strong>: Composite structures of PET/H40 at different thicknesses (<span class="math inline">\(80\,\mu\text{m}\)</span> and <span class="math inline">\(65\,\mu\text{m}\)</span>, respectively).</li>
+</ol></li>
+</ul>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+<dl>
+<dt><img src="images/transmit2.png" class="img-fluid" style="width:85.0%" alt="Visible Light Transmittance Spectra of Optical Films"></dt>
+<dd>
+Figure 6: Light transmittance comparison across the visible light spectrum (<span class="math inline">\(400 - 700\,\text{nm}\)</span>) for PET, Green TPU, and their composite structures.
+</dd>
+</dl>
 </div>
+</section>
+<section id="key-optical-insights-high-transparency-anti-reflection-synergy" class="level3">
+<h3 class="anchored" data-anchor-id="key-optical-insights-high-transparency-anti-reflection-synergy">4.2 Key Optical Insights: High Transparency &amp; Anti-Reflection Synergy</h3>
+<ul>
+<li><strong>Superior Transmittance of TPU</strong>:
+<ul>
+<li>As clearly indicated by the spectral curves, the configurations incorporating the Green TPU layer (both pure H40 and PET/H40 composites) consistently exhibit <strong>significantly higher transmittance</strong> across nearly the entire visible range compared to the baseline HC PET film.</li>
+</ul></li>
+<li><strong>Anti-Reflection &amp; Enhancement Effect</strong>:
+<ul>
+<li>More importantly, the integration of the tailored Green TPU layer achieves an <strong>optical enhancement</strong> effect, minimizing internal reflection losses and preserving exceptional visual clarity, which is essential for high-end electronic display protection without causing chromatic aberration or image distortion.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+</div>
+<hr>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Part 5: Summary
+</div>
+</div>
+<section id="summary-of-high-performance-optical-protective-film" class="level2 callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="summary-of-high-performance-optical-protective-film">5. Summary of High-Performance Optical Protective Film</h2>
+<section id="core-technological-achievements-advantages" class="level3">
+<h3 class="anchored" data-anchor-id="core-technological-achievements-advantages">5.1 Core Technological Achievements &amp; Advantages</h3>
+<ul>
+<li><strong>Optimized Multi-Layer Architecture</strong>:
+<ul>
+<li>Successfully designed and evaluated an advanced optical protective film structure (within a strict total thickness limit under <span class="math inline">\(150\,\mu\text{m}\)</span>) integrating a hard-coated PET functional layer, our bespoke Green TPU impact-absorbing layer, and a silicone PSA bonding layer.</li>
+</ul></li>
+<li><strong>Exceptional Impact Resilience</strong>:
+<ul>
+<li>Demonstrated superior shock absorption during drop-weight impact tests (e.g., absorbing the vast majority of kinetic energy and drastically reducing the rebound height to <span class="math inline">\(5\,\text{mm}\)</span> compared to bare glass), successfully fulfilling rigorous electronic screen protection requirements.</li>
+</ul></li>
+<li><strong>Outstanding Anti-Nail Scratch &amp; Self-Healing Performance</strong>:
+<ul>
+<li>Fully complied with stringent surface indentation criteria initially, and featured a remarkable long-term recovery capability where scratch marks completely vanished (reaching a depth of <span class="math inline">\(0\,\mu\text{m}\)</span>) by the 9th day due to excellent viscoelastic network design.</li>
+</ul></li>
+<li><strong>Superior Optical Clarity &amp; Anti-Reflection</strong>:
+<ul>
+<li>Exhibited high luminous transmittance across the visible spectrum (<span class="math inline">\(400 - 700\,\text{nm}\)</span>), providing an unexpected optical enhancement (anti-reflective) synergy when composited with PET substrates.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+</div>
+<div class="d-flex justify-content-between align-items-center mt-5 pt-4 border-top">
+<p><!-- 左侧：返回总览 --> <a href="../../validation/index.html" class="btn btn-outline-secondary"> ← Back to PET Circularity </a></p>
 
 
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
